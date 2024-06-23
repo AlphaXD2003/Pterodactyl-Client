@@ -20,6 +20,7 @@ function Login() {
     watch,
   } = useForm();
   const login = async (data) => {
+    console.log('okei....')
     const { email, password } = data;
     setError("");
     try {

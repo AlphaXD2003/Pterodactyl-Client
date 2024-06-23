@@ -16,6 +16,19 @@ const Blog = () => {
   useEffect(() => {
     fetchBlog();
   }, []);
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = "//thubanoa.com/1?z=7426283";
+    script.async = "async";
+    script.setAttribute('data-cfasync', 'false');
+
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(script);
+    }
+  }, []);
   return post ? (
     <div className="m-3">
       <div className="font-bold text-black text-3xl underline">

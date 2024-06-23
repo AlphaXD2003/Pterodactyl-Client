@@ -1,4 +1,5 @@
-const url = "https://panel.how2mc.xyz";
+// const url = "https://panel.how2mc.xyz";
+const url = "http://ptero-client.how2mc.xyz";
 const api_key = "ptla_aap6jlHVZ8XT6EfIN9sRRwuUZ1QgUNcQz59oE2fDtpX";
 console.log(url);
 fetch(`${url}/api/application/users`, {

@@ -85,7 +85,7 @@ function Panel() {
           </div>
           <div className="flex flex-row gap-3 mt-2 cursor-pointer">
             <div>
-              <Link to="https://panel.how2mc.xyz" target="_blank">
+              <Link to="http://192.168.0.120" target="_blank">
                 <Button variant="contained">↗ &nbsp;Open game panel.</Button>
               </Link>
             </div>

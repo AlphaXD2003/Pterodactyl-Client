@@ -21,6 +21,7 @@ import userdata from "../services/userData.appwrite.js";
 import { BackgroundGradient } from "../components/BackgroundGradient";
 import { Spotlight } from "../components/Spotlight.tsx";
 import AdComponent from "../components/AdComponent"
+import TestAdSenseComponent from "../components/TestAdComponent"
 import {
   TextRevealCard,
   TextRevealCardDescription,
@@ -217,10 +218,11 @@ function Home() {
       <div className="mx-2 my-0.5 border border-neutral-600 h-10 bg-neutral-800 rounded-lg px-2 py-1 ">
         <div className="bg-neutral-800 py-0.5">
           Upgrade to premium now! Use code How25 for 25% off premium services.
-          Don't miss out!
+          Do not miss out!
         </div>
       </div>
-       {/* <AdComponent /> */}
+      {/* <AdComponent />*/}
+      {/* <TestAdSenseComponent /> */}
       <div className="">
         <div className="flex flex-row gap-2 w-[1600px]  ">
           <Card
