@@ -137,7 +137,11 @@ function Home() {
     console.log("Delete server with id: ", id);
 
     const [deleteResponse, deleteError] = await deleteAPI.delete(
-      `${import.meta.env.VITE_PTERODACTYL_URL}/servers/${id}`
+      `/api/application/servers/${id}`,{
+        headers: {
+          Authorization: `Bearer ${import.meta.env.VITE_PTERODACTYL_API_KEY}`,
+        },
+      }
     );
     if (deleteError) {
       console.error("Error deleting server: ", deleteError);

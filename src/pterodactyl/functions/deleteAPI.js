@@ -15,7 +15,7 @@ class API {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
-          Authorization: `Bearer ptla_aap6jlHVZ8XT6EfIN9sRRwuUZ1QgUNcQz59oE2fDtpX`,
+          Authorization: `Bearer ${import.meta.env.VITE_PTERODACTYL_API_KEY}`,
         },
       });
       

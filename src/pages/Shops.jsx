@@ -78,7 +78,7 @@ function SaleCard({
 
 
     var options = {
-      "key": String(import.meta.env.RAZORPAY_KEY_ID), // Enter the Key ID generated from the Dashboard
+      "key": String(import.meta.env.VITE_RAZORPAY_KEY_ID), // Enter the Key ID generated from the Dashboard
       "amount": amount , // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       "currency": "INR",
       "name": "How2MC Client", //your business name
